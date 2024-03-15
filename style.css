@@ -1,0 +1,79 @@
+.container-fluid{
+  margin: 0px 10px 0px 10px !important;
+}
+
+.search-container{
+    width: 40%;
+}
+#searchbar{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=text]  { 
+    background-image: url('/Images/searchicon.png') ;
+    background-position: 10px 10px ;
+    background-repeat: no-repeat ;
+    padding-left: 40px ;
+    background-color: F0F5FF;
+  }
+
+  .cartlogo,.profile,.bseller{
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: inherit;
+  }
+.txt{
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.btn-light:hover {
+  background-color: rgb(89, 89, 170) !important;
+  color: white !important; /* Optionally change text color on hover */
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+.navbar-nav .nav-item {
+    text-align: center;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Set the background color as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+    z-index: 999; /* Set a higher z-index to make it appear above other content */
+  }
+  
+  .dropdown-content a {
+    color: black; /* Set the text color as needed */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* Set the background color on hover as needed */
+  }
+
+.carousel-indicators button{
+width: 1% !important;
+border-radius: 50% !important;
+cursor: pointer;
+}
+
+.itemsets a{
+  color: black; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#smartphoneDeals img:hover{
+  width: 101%;
+  z-index: 999;
+}
