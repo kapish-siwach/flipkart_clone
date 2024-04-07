@@ -20,7 +20,6 @@ input[type=text]  {
     text-decoration: none !important;
     color: inherit;
   }
-
 .txt{
     font-size: 20px;
     font-weight: bold; 
@@ -38,35 +37,33 @@ input[type=text]  {
 .navbar-nav .nav-item {
     text-align: center;
   }
-
-.carousel-item img{
-  width: 100%;
-}
-.dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #fff; /* Set the background color as needed */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
     z-index: 999; /* Set a higher z-index to make it appear above other content */
-}
+  }
   
-.dropdown-content a {
+  .dropdown-content a {
     color: black; /* Set the text color as needed */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+  }
   
-.dropdown-content a:hover {
+  .dropdown-content a:hover {
     background-color: #f1f1f1; /* Set the background color on hover as needed */
-}
+  }
 
 .carousel-indicators button{
 width: 1% !important;
 border-radius: 50% !important;
 cursor: pointer;
 }
-
+.carousel-item img{
+  width: 100%;
+}
 .itemsets a{
   color: black; 
     padding: 12px 16px;
@@ -74,9 +71,9 @@ cursor: pointer;
     display: block;
 }
 
-#smartphoneDeals img:hover{
-  width: 101%;
-  z-index: 999;
+.card:hover{
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+z-index: 999;
 }
 
 .footer{
